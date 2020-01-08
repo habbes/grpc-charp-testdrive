@@ -8,7 +8,7 @@ The project consists of a single solution (`GrpcTestDrive.sln`) containing 3 pro
 
 - `Client`: client app
 - `Server`: server app that implements the service
-- `Common`: contains the service `.proto` files references to `Grpc`, `Grpc.Tools` and `Google.Protobuf`. The base service code will be generated in this project. This is a class library that's used by the other two projects.
+- `Common`: contains the service `.proto` file and references to `Grpc`, `Grpc.Tools` and `Google.Protobuf`. The base service code will be generated in this project. This is a class library that's used by the other two projects.
 
 ## Building
 
