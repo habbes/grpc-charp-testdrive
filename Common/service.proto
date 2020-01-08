@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+option csharp_namespace = "GrpcTestDrive";
+
+service MyService {
+	rpc SendRequest(MyRequest) returns (MyReply);
+}
+
+message MyRequest {
+	string message = 1;
+}
+
+message MyReply {
+	string message = 1;
+	int32 foo = 2;
+}
